@@ -11,7 +11,7 @@ Faculdade facimp
  
 <table align="center">
   <tr>
-    <td align="center"><a href="https://github.com/hygorr23"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/65835233?s=60&v=4" width="100px;" alt=""/><br /><sub><b>Ailton Oliver </b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/AiltonOliver"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/65835233?s=60&v=4" width="100px;" alt=""/><br /><sub><b>Ailton Oliver </b></sub></a><br /></td>
   </tr>
 </table>
 
