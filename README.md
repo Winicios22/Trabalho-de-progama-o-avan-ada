@@ -5,7 +5,7 @@
 
 
 
-[Wiki](https://github.com/Winicios22/Trabalho-de-progama-o-avan-ada/wiki/Home/_edit)
+Confira a [wiki](https://github.com/Winicios22/Trabalho-de-progama-o-avan-ada/wiki/Home/_edit) para mais detalhes do projeto.
 
 
 <h3 align="center"> Colaboradores:</h3>
