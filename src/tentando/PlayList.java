@@ -12,17 +12,46 @@ import java.util.ArrayList;
  * @author ufcju
  */
 public class PlayList {
-    
-    private ArrayList<Musica> musicas;
+    private String nome ;
+    ArrayList<Musica> pl = new ArrayList();
 
-    public ArrayList<Musica> getMusicas() {
-        return musicas;
+    public PlayList(String nome) {
+        this.nome = nome;
     }
 
-    public void setMusicas(ArrayList<Musica> musicas) {
-        this.musicas = musicas;
+    public String getNome() {
+        return nome;
     }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+   
+
+    public ArrayList<Musica> getPl() {
+        return pl;
+    }
+
+    public void setPl(ArrayList<Musica> pl) {
+        this.pl = pl;
+    }
+
+  
     
-    
-    
+     public void addMusica(String nome) {
+        
+                pl.add(new Musica(nome));
+                System.out.println("Nova musica " + nome + " - " + " adicionado a " + this.nome);
+        
+                 
+         }
+         
+
+     public void listarMusica() {
+
+        for (int i = 0; i < this.pl.size(); i++) {
+            System.out.println(i + " - " + this.pl.get(i).getNome() + " - " + this.pl.get(i).getArtista());
+        }
+     }
 }

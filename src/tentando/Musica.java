@@ -11,12 +11,20 @@ package tentando;
  */
 public class Musica {
     
+    
     private String nome;
     private String artista;
 
     public Musica(String nome, String artista) {
         this.nome = nome;
         this.artista = artista;
+    }
+    public Musica(String nome) {
+        this.nome = nome;
+       
+    }
+
+    public Musica() {
     }
     
     

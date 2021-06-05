@@ -12,9 +12,8 @@ import java.util.ArrayList;
  * @author ufcju
  */
 public class dispositivo {
-    
-    private ArrayList<Musica> arquivo;
-    
+     ArrayList<Musica> arquivo = new ArrayList();
+    ArrayList<PlayList> playlists = new ArrayList();
     private static dispositivo instance = null;
     
     public static dispositivo getInstance(){
@@ -33,8 +32,20 @@ public class dispositivo {
     
     //----------------------------------------------------
     
-    public void addMusica(String nome, String artista) {
-       
-        System.out.println("new song " + nome + ": " + artista + " added to album " + this.nome);
+    public void addMusicaDisp(String nome, String artista) {
+       arquivo.add(new Musica(nome,artista));
+       System.out.println("Nova musica " + nome + " - " + artista + " adicionado ao dispositivo ");
 }
+    
+   public void criarPL(String nome){
+       playlists.add(new PlayList(nome));
+        System.out.println("Nova PlayList " + nome + " foi criada!");
+   }
+   
+   public void listarPL() {
+
+        for (int i = 0; i < this.playlists.size(); i++) {
+            System.out.println(i + " - " + this.playlists.get(i).getNome());
+        }
+   }
 }
