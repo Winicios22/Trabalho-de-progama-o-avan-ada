@@ -3,8 +3,10 @@
 ##### Disciplina: Programação Avançada
 ##### Professora: [Antonia Vanessa](https://github.com/AntoniaVanessa)
 
-## Um pouco sobre nosso projeto:
+### Um pouco sobre nosso projeto:
 ![](https://raw.githubusercontent.com/Winicios22/Trabalho-de-progama-o-avan-ada/main/playlist%20creator%20logo%20menor.png)
+
+O Playlist Creator tem o intuito de permitir que o usuário crie suas play lists com o nome e as músicas que ele achar melhor.  
 
 
 
