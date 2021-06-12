@@ -1,7 +1,7 @@
 # Faculdade Facimp
 
 ##### Disciplina: Programação Avançada
-##### Professora: Vanessa
+##### Professora: [Antonia Vanessa](https://github.com/AntoniaVanessa)
 
 
 
