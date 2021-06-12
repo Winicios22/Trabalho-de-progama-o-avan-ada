@@ -3,6 +3,9 @@
 ##### Disciplina: Programação Avançada
 ##### Professora: [Antonia Vanessa](https://github.com/AntoniaVanessa)
 
+## Um pouco sobre nosso projeto:
+![](https://raw.githubusercontent.com/Winicios22/Trabalho-de-progama-o-avan-ada/main/playlist%20creator%20logo%20menor.png)
+
 
 
 Confira a [wiki](https://github.com/Winicios22/Trabalho-de-progama-o-avan-ada/wiki/Home/_edit) para mais detalhes do projeto.
